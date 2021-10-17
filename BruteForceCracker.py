@@ -2,7 +2,7 @@ import itertools
 import string
 
 def guess_password(real):
-    #original code string.ascii_lowercase + string.digits
+    #original code string string.ascii_lowercase + string.digits
     #chose string.printable for wider variation of returned guess values
     chars = string.printable
     attempts = 0
