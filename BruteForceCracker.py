@@ -3,7 +3,7 @@ import string
 
 def guess_password(real):
     #original code string.ascii_lowercase + string.digits
-    #chose string.printable for wider variation of guess values
+    #chose string.printable for wider variation of returned guess values
     chars = string.printable
     attempts = 0
     for password_length in range(1, 9):
